@@ -1,21 +1,24 @@
+/* Body style */
 body {
 width: 100%;
 margin: 0;
 background-color: black;
 }
 
+/* Table style */
 table, th, td {
 border-collapse: collapse;
 border: 1px solid white;
 padding: 1em;
 color: white;
 }
-    
+ 
+/* Frontpage font color */
 h1, h2, p, li {
 color: white;
 padding: 10px;
 }
-    
+
 h1 {
 padding: 20px;
 }
@@ -24,6 +27,7 @@ a {
 color: white;
 }
 
+/* Poem style */
 .poem {
 width: 100%;
 margin: 0;
@@ -31,12 +35,14 @@ background-image: url("poe.jpg");
 background-size: 100%;
 }
 
+/* Poem link color */
 .poem a {
     padding-left: 20px;
     font-size: 18px;
     color: white;
 }
 
+/* Lenore style */
 .lenore {
 width: 100%;
 margin: 0;
@@ -45,6 +51,7 @@ background-size: 100%;
 background-blend-mode: lighten;
 }
 
+/* All lenore's font colors */
 .lenore h1 {
     color: black;
 }
