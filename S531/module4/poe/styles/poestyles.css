@@ -20,6 +20,10 @@ h1 {
 padding: 20px;
 }
 
+a {
+color: white;
+}
+
 .poem {
 width: 100%;
 margin: 0;
