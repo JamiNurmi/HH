@@ -196,24 +196,24 @@ footer {
         height: auto;
         padding-bottom: 20px;
     }
-    
+
     .footer_otsikko {
-        font-size: 20px;
+        font-size: 18px;
     }
-    
+
     .footer_tiedot {
-        font-size: 16px;
+        font-size: 14px;
     }
-    
+
     .some_otsikko {
-        font-size: 20px;
+        font-size: 18px;
     }
     .some {
-        font-size: 16px;
+        font-size: 14px;
     }
-    
+
     .somekuva {
         width: 40px;
     }
-    
-    }
+ 
+}
