@@ -3,7 +3,7 @@ body {
     padding: 0;
 }
 
-.ylapalkki {
+.header {
     width: 100%;
     padding-top: 5px;
     column-gap: 20px;
@@ -91,16 +91,16 @@ footer {
     display: flex;
     bottom: 0;
     width: 100%;
-    height: 270px;
+    padding-bottom: 40px;
     background-color: rgb(243, 243, 243);
 }
 
 .footer_vasen {
     padding-top: 20px;
+    padding-left: 40px;
 }
 
 .footer_otsikko {
-    padding-left: 50px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
     color: black;
@@ -109,7 +109,6 @@ footer {
 .footer_tiedot {
     display: grid;
     row-gap: 7px;
-    padding-left: 50px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     font-weight: bolder;
@@ -120,9 +119,9 @@ footer {
     flex-grow: 1;
 }
 
-
 .footer_oikea {
-    padding: 20px;
+    padding-top: 20px;
+    padding-right: 40px;
 }
 
 .some_otsikko {
@@ -157,3 +156,64 @@ footer {
 .footer_img {
     width: 80%;
 }
+
+@media screen and (max-width: 900px) {
+
+    .otsikko {
+        font-size: 18px;
+        padding-left: 20px;
+    }
+    
+    .linkki {
+        font-size: 18px;
+    }
+
+    .school h1 {
+        font-size: 18px;
+    }
+
+    .work h1 {
+        font-size: 18px;
+    }
+
+    .it h1 {
+        font-size: 18px;
+    }
+
+    .hobby h1 {
+        font-size: 18px;
+    }
+
+    .row {
+        font-size: 16px;
+    }
+
+    .row-last {
+        font-size: 16px;
+    }
+
+    footer {
+        height: auto;
+        padding-bottom: 20px;
+    }
+    
+    .footer_otsikko {
+        font-size: 20px;
+    }
+    
+    .footer_tiedot {
+        font-size: 16px;
+    }
+    
+    .some_otsikko {
+        font-size: 20px;
+    }
+    .some {
+        font-size: 16px;
+    }
+    
+    .somekuva {
+        width: 40px;
+    }
+    
+    }
