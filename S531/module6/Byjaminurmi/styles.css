@@ -57,23 +57,67 @@ a:link {
 .content {
     width: 70%;
     margin: auto;
-    height: 100vh;
+    padding-top: 90px;
+    height: auto;
+}
+
+.first-content {
+    padding-top: 50px;
+    width: 100%;
+    text-align: center;
+}
+
+.first-content h1 {
+    font-size: 28px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.second-content {
+    width: 100%;
+    text-align: center;
+}
+
+.second-content p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.second-content span {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bold-text {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.third-content {
+    width: 100%;
+    display: flex;
+    column-gap: 10px;
+    padding-bottom: 30px;
+}
+
+img {
+    width: 20%;
 }
 
 footer {
     display: flex;
     bottom: 0;
     width: 100%;
-    height: 270px;
+    padding-bottom: 40px;
     background-color: rgb(243, 243, 243);
 }
 
 .footer_vasen {
     padding-top: 20px;
+    padding-left: 40px;
 }
 
 .footer_otsikko {
-    padding-left: 50px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
     color: black;
@@ -82,7 +126,6 @@ footer {
 .footer_tiedot {
     display: grid;
     row-gap: 7px;
-    padding-left: 50px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     font-weight: bolder;
@@ -93,9 +136,9 @@ footer {
     flex-grow: 1;
 }
 
-
 .footer_oikea {
-    padding: 20px;
+    padding-top: 20px;
+    padding-right: 40px;
 }
 
 .some_otsikko {
@@ -131,10 +174,40 @@ footer {
     width: 80%;
 }
 
-@media screen and (max-width: 900px) {
-    
-body {
-    background-color: red;
-}
+@media screen and (max-width: 600px) {
+    .third-content {
+        width: 100%;
+        display: grid;
+        row-gap: 10px;
+        justify-items: center;
+    }
 
+    img {
+        width: 80%;
+    }
+
+    footer {
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .footer_otsikko {
+        font-size: 18px;
+    }
+
+    .footer_tiedot {
+        font-size: 14px;
+    }
+
+    .some_otsikko {
+        font-size: 18px;
+    }
+    .some {
+        font-size: 14px;
+    }
+
+    .somekuva {
+        width: 40px;
+    }
+ 
 }
